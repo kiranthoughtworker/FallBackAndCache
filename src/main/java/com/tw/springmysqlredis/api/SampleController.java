@@ -1,12 +1,9 @@
-package com.example.demohystrix;
-
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
-
-import com.netflix.hystrix.contrib.javanica.annotation.HystrixProperty;
-
+package com.tw.springmysqlredis.api;
 
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixProperty;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class SampleController
